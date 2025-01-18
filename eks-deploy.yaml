@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-springboot-app
-        image: 940482448287.dkr.ecr.ap-south-1.amazonaws.com/devops/demo-eks
+        image: accountyId.dkr.ecr.ap-south-1.amazonaws.com/devops/demo-eks
         imagePullPolicy: Always
         ports:
         - containerPort: 8085
